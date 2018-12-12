@@ -1,0 +1,257 @@
+.g-row {
+  width: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  .m-profile {
+    height: 3.6rem;
+    background-image: url('./images/bj.png');
+    background-size: 100%;
+    background-position: bottom center;
+    padding-left: .4rem;
+    overflow: hidden;
+    .g-row {
+      width: 9.6rem;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      .left {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        padding: .85333rem 0;
+        width: 7.2rem;
+        .avatar {
+          vertical-align: middle;
+          width: 1.89333rem;
+          height: 1.89333rem;
+          border-radius: 50%;
+        }
+        .info {
+          flex: 1;
+          margin-left: .4rem;
+          line-height: 1;
+          overflow: hidden;
+          .nickname {
+            color: #fff;
+            font-size: .48rem;
+            line-height: 1.2;
+            text-align: left;
+            margin-bottom: .13333rem;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+          .membershipLevel {
+            .memberTitle0 {
+              color: #fff;
+              font-size: .37333rem;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+      .right {
+        position: relative;
+        width: 2.8rem;
+        padding-left: .22667rem;
+        height: 100%;
+        .u-icon-qrCodeInUcenter {
+          position: absolute;
+          right: .18667rem;
+          top: -0.78667rem;
+          width: .85333rem;
+          height: .85333rem;
+          background-size: 100%;
+          background-position: 0 -1.25333rem;
+          display: inline-block;
+          vertical-align: middle;
+          background-image: url('./images/jing.png');
+          background-repeat: no-repeat;
+        }
+        .m-supermcEntrance {
+          margin-top: 25px;
+          width: 2.70667rem;
+          height: 1.12rem;
+          background: #444;
+          border-top-left-radius: .85333rem;
+          border-bottom-left-radius: .85333rem;
+          overflow: hidden;
+          -webkit-animation: shake 1s linear 3;
+          animation: shake 1s linear 3;
+          .u-icon-supermember {
+            margin: auto .12rem;
+            width: .74667rem;
+            height: .74667rem;
+            background-repeat: no-repeat;
+            background-position: 0 -2.24rem;
+            display: inline-block;
+            vertical-align: middle;
+            background-size: .85333rem 15.68rem;
+            background-image: url('./images/jing.png');
+          }
+          .word {
+            display: inline-block;
+            padding: .13333rem 0;
+            color: #EDE7DB;
+            vertical-align: middle;
+            .line1 {
+              font-size: .34667rem;
+              line-height: .48rem;
+            }
+            .line2 {
+              font-size: .26667rem;
+              line-height: .37333rem;
+              vertical-align: middle;
+              .u-icon-arrow {
+                width: .24rem;
+                height: .24rem;
+                margin-left: .05333rem;
+                background-position: 0 0;
+                display: inline-block;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-size: .85333rem 15.68rem;
+                background-image: url('./images/jing.png');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.w-button-blocks {
+  display: block;
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #333;
+  vertical-align: middle;
+  text-align: center;
+  font-size: .37333rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bounsEntrance {
+  display: block;
+  position: fixed;
+  right: .4rem;
+  bottom: 1.70667rem;
+  width: 1.52rem;
+  height: 1.92rem;
+  background: url('./images/wu.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.m-uMenu {
+  margin-bottom: .53333rem;
+  background: #fff;
+  .m-uMenuItem {
+    display: block;
+    height: 2.4rem;
+    padding-top: .6rem;
+    text-align: center;
+    .img {
+      width: .66667rem;
+      height: .66667rem;
+      vertical-align: middle;
+      margin-bottom: .21333rem;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: .85333rem 15.68rem;
+      background-image: url('./images/jing.png');
+    }
+    .txt {
+      display: block;
+      font-size: .32rem;
+      line-height: 1;
+      color: #333;
+    }
+  }
+  .list {
+    zoom: 1;
+    .item {
+      float: left;
+      width: 33.33333%;
+      border-right: 1px solid rgba(0, 0, 0, .15);
+      border-bottom: 1px solid rgba(0, 0, 0, .15);
+      &:nth-of-type(3n) {
+        border-right: 0;
+      }
+    }
+    .item-bottom {
+      border-bottom: none;
+    }
+    &::after {
+      display: block;
+      clear: both;
+      visibility: hidden;
+      height: 0;
+      overflow: hidden;
+      content: ".";
+    }
+  }
+}
+
+.u-icon-ugiftcard {
+  background-position: 0 -6.32rem;
+}
+
+.u-icon-upreemption {
+  background-position: 0 -13.41333rem;
+}
+
+.u-icon-uredpacket {
+  background-position: 0 -14.21333rem;
+}
+
+.u-icon-ucoupon {
+  background-position: 0 -4.72rem;
+}
+
+.u-icon-ulist {
+  background-position: 0 -10.32rem;
+}
+
+.u-icon-upin {
+  background-position: 0 -11.81333rem;
+}
+
+.u-icon-uaftersale {
+  background-position: 0 -3.92rem;
+}
+
+.u-icon-ulead {
+  background-position: 0 -9.52rem;
+}
+
+.u-icon-ufeedback {
+  background-position: 0 -5.52rem;
+}
+
+.u-icon-uhelp-kefu {
+  background-position: 0 -7.12rem;
+}
+
+.u-icon-usecurity {
+  background-position: 0 -15.01333rem;
+}
+
+.u-icon-uaddress {
+  background-position: 0 -3.12rem;
+}
+
+.u-icon-umembershipBenefits {
+  background-position: 0 -11.12rem;
+}
+
+.u-icon-upoints {
+  background-position: 0 -12.61333rem;
+}
